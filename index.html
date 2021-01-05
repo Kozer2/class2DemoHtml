@@ -11,22 +11,22 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <header> 
-    <h1>Class 2</h1>
+    <h1>Class 2 Lab 02</h1>
     <nav>
       <ul>
         <li>Home</li>
-        <li>About Me</li>
+        <li>About Me Quiz</li>
       </ul>
     </nav>
   </header>
     <body>
         <main>
             <section>
-                <p class ="more-styles">What is your name?</p>
+                <p class ="more-styles", id="name">Personalized message here</p>
             </section>
-            <p id="another-style">Where would you like to travel</p>
-            <p id="another-style">Are you a cat or dog person?</p>
-            <p class="more-styles">Have you ever traveled overseas?</p>
+            <p id="another-style">I was born in 1990</p>
+            <!-- <p id="another-style">Are you a cat or dog person?</p>
+            <p class="more-styles">Have you ever traveled overseas?</p> -->
         </main>
         <footer>
             <nav>
@@ -37,6 +37,10 @@
             </nav>
         </footer>
         
-        <script src="" async defer></script>
+        <script>
+            var userName = prompt('Hello! Please enter your name here: ')
+            var displayName = document.getElementById("name");
+            displayName.innerHTML = "Hello " + userName + " welcome to my website";
+        </script>
     </body>
 </html>

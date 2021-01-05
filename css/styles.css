@@ -7,29 +7,37 @@ body{
 
 main{
     background-color: teal;
+
 }
+
 header{
     margin-bottom: 100px;
 }
 nav{
-    height: 200px;
+    height: 57px;
     background-color: rgb(56, 29, 56);
 }
 
 ul li{
-    display: inline;
+    display: inline-block;
     color: whitesmoke;
-    padding: 10px;
+    padding: 5px; 
     border-radius: 10px;
-    background-color: gold;
+    background-color: rgb(161, 146, 60);
+    
+    
 }
 ol li{
-    display: inline;;
+    display: inline-block;
     color: whitesmoke;
     background-color: gold;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 15px;
     
+}
+footer{
+    height: 500px;
 }
 
 #another-style{
