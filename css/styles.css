@@ -1,0 +1,41 @@
+
+body{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: silver;
+}
+
+main{
+    background-color: teal;
+}
+header{
+    margin-bottom: 100px;
+}
+nav{
+    height: 200px;
+    background-color: rgb(56, 29, 56);
+}
+
+ul li{
+    display: inline;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gold;
+}
+ol li{
+    display: inline;;
+    color: whitesmoke;
+    background-color: gold;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#another-style{
+    border: 5px solid rgb(75, 75, 75);
+}
+.more-styles{
+    color: wheat;
+    background-color: blue;
+}
