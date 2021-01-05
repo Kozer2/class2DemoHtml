@@ -5,13 +5,10 @@ body{
     background-color: silver;
 }
 
-main{
-    background-color: teal;
 
-}
 
 header{
-    margin-bottom: 100px;
+    margin-top: 15px;
 }
 nav{
     height: 57px;
@@ -35,6 +32,7 @@ ol li{
     border-radius: 10px;
     padding: 5px;
     margin-top: 15px;
+    color: black;
     
 }
 footer{
@@ -43,8 +41,11 @@ footer{
 
 #another-style{
     border: 5px solid rgb(75, 75, 75);
+    background-color: rgb(75, 75, 75);;
+    color: rgb(0, 0, 0);
 }
 .more-styles{
     color: wheat;
     background-color: blue;
+    padding: 25px;
 }
