@@ -36,7 +36,9 @@ ol li{
     
 }
 footer{
+    
     height: 500px;
+    margin-top: 75px;
 }
 
 #another-style{
@@ -49,3 +51,53 @@ footer{
     background-color: blue;
     padding: 25px;
 }
+
+
+
+
+
+/* * {
+    /* outline: dashed; 
+    border: 1px gold !important;
+}
+
+.inline-p{
+    display: inline-block;
+}
+
+#empty-div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+#para-div{
+    background-color: whitesmoke;
+    height: 90%;
+    width: 90%;
+}
+
+#overflow-box{
+    max-height: 150px;
+    overflow: scroll;
+    overflow: hidden;
+}
+
+#footer-box{
+    padding: 20px;
+    margin: 10px;
+    border: 5px dashed orange !important;
+
+}
+
+body{
+    margin: 0 auto;
+    width: 100px;
+    background-color: violet;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main{
+    background-color:rgb(98, 2, 98);
+} */
