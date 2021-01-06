@@ -55,7 +55,7 @@ if (question5 ==='social informatics'){
 // create a random number generator to pick a random number between 1 and 10. 
 // create counters to track number of guesses and loop iterations. 
 var number = Math.floor(Math.random() * 10) + 1;   // Found the random generator on W3 schools (https://www.w3schools.com/js/js_random.asp)
-console.log('The random number is: ', number);
+// console.log('The random number is: ', number);
 var guessCounter = 0;
 var loopCounter = 4;
 var wrong = false
