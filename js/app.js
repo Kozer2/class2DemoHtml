@@ -16,7 +16,7 @@ if (question1 ==='october' || question1 === 'oct'){
     alert('Sorry, that wasn\'t the right answer');
 }
 
-var question2 = prompt('Did I graduate Xavier high school ins 2009 or 2010?').toLowerCase();
+var question2 = prompt('Did I graduate Xavier high school in 2009 or 2010?').toLowerCase();
 if (question2 ==='2009'){
     alert('You got that one right!');
     counter += 1;
