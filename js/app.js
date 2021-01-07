@@ -90,38 +90,42 @@ function randomizedQuestions(){
     }
 }
 
-// // reset counters
-// guessCounter = 0;
-// loopCounter = 7;
-// var userCorrect = false;
-// // create an array with the right answers
-// var answersFor7 =['pakistan', 'malawi', 'hong kong'];
 
-// while(guessCounter < 7){
-//     var question7 = prompt('Name 1 country I was stationed in overseas. You have ' + loopCounter + ' guesses remaining.').toLowerCase();
-//     // console.log(question7);
-//     loopCounter -= 1;
-//     for(var i = 0; i <= answersFor7.length; i++ ){
-//         if(answersFor7[i] === question7){
-//             alert('You got lucky...Again. Good job!');
-//             counter += 1;
-//             guessCounter = 7;
-//             userCorrect = true;
-//         }
-//     }
-//     if(guessCounter !== 7){
-//         alert('That was not the right answer!');
-//     }
-    
-//     guessCounter += 1;
+function countryQuestions(){
+    // reset counters
+    var guessCounter = 0;
+    var loopCounter = 7;
+    var userCorrect = false;
+    // create an array with the right answers
+    var answersFor7 =['pakistan', 'malawi', 'hong kong'];
 
-// }
-// // if statement to alert the user they ran out of guesses
-// if(userCorrect === false){
-//     alert('You ran out of guesses!');
-// }
 
-alert('You got ' + counter + ' answers right!')
+    while(guessCounter < 7){
+        var question7 = prompt('Name 1 country I was stationed in overseas. You have ' + loopCounter + ' guesses remaining.').toLowerCase();
+        // console.log(question7);
+        loopCounter -= 1;
+        for(var i = 0; i <= answersFor7.length; i++ ){
+            if(answersFor7[i] === question7){
+                alert('You got lucky...Again. Good job!');
+                counter += 1;
+                guessCounter = 7;
+                userCorrect = true;
+            }
+        }
+        if(guessCounter !== 7){
+            alert('That was not the right answer!');
+        }
+        
+        guessCounter += 1;
+
+    }
+    // if statement to alert the user they ran out of guesses
+    if(userCorrect === false){
+        alert('You ran out of guesses!');
+    }
+
+    alert('You got ' + counter + ' answers right!')
+}
 
 
 // Code below here is old yes/no questions. 
