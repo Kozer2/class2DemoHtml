@@ -65,9 +65,15 @@ function randomizedQuestions(){
     var guessCounter = 0;
     var loopCounter = 4;
     var wrong = false
-    // create a while loop with if statements to check for correct answers.
+    // create a while loop with if statements to check for correct answers. Fix from Nathan and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN
+    
     while(guessCounter < 4){
-        var question6 = prompt('Guess a number between 1 and 10. You have ' + loopCounter + ' guesses remaining.');
+        var question6 = parseInt(prompt('Guess a number between 1 and 10. You have ' + loopCounter + ' guesses remaining.')); 
+        // create a while loop to check that they input a number and not text.
+        while(isNaN(question6)){
+          alert('I said enter a number. Do it. Or else.');
+          question6 = parseInt(prompt('Guess a number between 1 and 10. You have ' + loopCounter + ' guesses remaining.'));
+        }
         loopCounter -= 1;
         // console.log(question6)
         if(question6 !== number && question6 > number){
