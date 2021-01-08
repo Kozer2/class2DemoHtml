@@ -5,7 +5,10 @@ body{
     background-color: silver;
 }
 
-
+#left-side{
+    float:left;
+    padding: 0 20px 20px 0;
+}
 
 header{
     margin-top: 15px;
@@ -20,7 +23,7 @@ nav{
     color: whitesmoke;
     padding: 5px; 
     border-radius: 10px;
-    background-color: rgb(161, 146, 60);
+    background-color: rgb(180, 161, 55);
     margin-top: 15px;
 }
 #top10{
@@ -40,9 +43,8 @@ nav{
     background-color: gold;
     border-radius: 10px;
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 13px;
     color: black;
-    
 }
 footer{
     height: 500px;
@@ -52,7 +54,7 @@ footer{
 #another-style{
     background-color:rgb(75, 75, 75);
     margin-top: 5px;
-    height: 175px;
+    height: 270px;
     color: rgb(0, 0, 0);
 }
 #another-style li{
@@ -88,48 +90,3 @@ footer{
 }
 
 
-/* * {
-    /* outline: dashed; 
-    border: 1px gold !important;
-}
-
-.inline-p{
-    display: inline-block;
-}
-
-#empty-div{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-}
-
-#para-div{
-    background-color: whitesmoke;
-    height: 90%;
-    width: 90%;
-}
-
-#overflow-box{
-    max-height: 150px;
-    overflow: scroll;
-    overflow: hidden;
-}
-
-#footer-box{
-    padding: 20px;
-    margin: 10px;
-    border: 5px dashed orange !important;
-
-}
-
-body{
-    margin: 0 auto;
-    width: 100px;
-    background-color: violet;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-main{
-    background-color:rgb(98, 2, 98);
-} */

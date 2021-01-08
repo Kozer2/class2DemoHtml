@@ -1,6 +1,6 @@
 'use strict';
 //
-console.log('This is the app.js, connected to the index.');
+
 
 
 //Create a counter to track right or wrong answers.
@@ -53,7 +53,7 @@ function generalQuestions(){
     alert('You got ' + counter + ' answers right!')
 }
 
-// generalQuestions();
+
 
 
 
@@ -62,7 +62,7 @@ function generalQuestions(){
 
 function randomizedQuestions(){
     var number = Math.floor(Math.random() * 10) + 1;   // Found the random generator on W3 schools (https://www.w3schools.com/js/js_random.asp)
-    // console.log('The random number is: ', number);
+
     var guessCounter = 0;
     var loopCounter = 4;
     var wrong = false
@@ -76,7 +76,7 @@ function randomizedQuestions(){
           question6 = parseInt(prompt('Guess a number between 1 and 10. You have ' + loopCounter + ' guesses remaining.'));
         }
         loopCounter -= 1;
-        // console.log(question6)
+ 
         if(question6 !== number && question6 > number){
             alert("You guessed too high! Guess again!");
             guessCounter += 1;
@@ -90,7 +90,7 @@ function randomizedQuestions(){
             guessCounter = 4;
             wrong = true
         }
-        // console.log(guessCounter);
+
     } 
     if(wrong === false){
         alert('You did not guess the answer. The right answer was: ' + number);
@@ -109,7 +109,7 @@ function countryQuestions(){
 
     while(guessCounter < 7){
         var question7 = prompt('Name 1 country I was stationed in overseas. You have ' + loopCounter + ' guesses remaining.').toLowerCase();
-        // console.log(question7);
+
         loopCounter -= 1;
         for(var i = 0; i <= answersFor7.length; i++ ){
             if(answersFor7[i] === question7){
@@ -131,49 +131,10 @@ function countryQuestions(){
         alert('You ran out of guesses!');
     }
 
-    // alert('You got ' + counter + ' answers right!')
+
 }
 
 
 // Code below here is old yes/no questions. 
 
 
-// var question1 = prompt('Was I born in the month of October?').toLowerCase();
-// if (question1 ==='yes'){
-//     alert('You got that one right!');
-//     counter += 1;
-// } else{
-//     alert('Sorry, that wasn\'t the right answer');
-// }
-
-// var question2 = prompt('Ben graduated Xavier High School in 2010').toLowerCase();
-// if (question2 ==='no'){
-//     alert('You got that one right!');
-//     counter += 1;
-// } else{
-//     alert('Sorry, that wasn\'t the right answer');
-// }
-
-// var question3 = prompt('Ben spent 2.5 years at Kirkwood Community College').toLowerCase();
-// if (question3 ==='yes'){
-//     alert('You got that one right!');
-//     counter += 1;
-// } else{
-//     alert('Sorry, that wasn\'t the right answer');
-// }
-
-// var question4 = prompt('Ben joined the Marine Corps in 2012').toLowerCase();
-// if (question4 ==='no'){
-//     alert('You got that one right!');
-//     counter += 1;
-// } else{
-//     alert('Sorry, that wasn\'t the right answer');
-// }
-
-// var question5 = prompt('Ben graduated the University of Iowa with a Computer Science degree').toLowerCase();
-// if (question5 ==='no'){
-//     alert('You got that one right!');
-//     counter += 1;
-// } else{
-//     alert('Sorry, that wasn\'t the right answer');
-// }
