@@ -21,13 +21,13 @@
     </nav>
   </header>
     <body>
+      <section>
+        <p class="more-styles" id="name">Personalized message here</p>
+    </section>
       <section id="left-side">
         <img src="images/couch.jpg" />
       </section>
         <main>
-            <section>
-                <p class ="more-styles", id="name">Personalized message here</p>
-            </section>
             <div id="another-style">
               <p>Here is some information about myself.</p>
               <ul>
@@ -41,7 +41,7 @@
               </ul>
             </div>
             <div id ="top10">
-              <h2>My top 10 favorite movies</h2>
+              <h2 id="movie">My top 10 favorite movies</h2>
               <ol>
                 <li>Starship Troopers</li>
                 <li>Saving Private Ryan</li>
@@ -61,11 +61,9 @@
                 <ol id="info">
                     <li><a>Contact</a></li>
                     <li><a>FAQ</a></li>
-                    
                 </ol>
             </nav>
         </footer>
-        
         <script>
              var userName = prompt('Hello! Please enter your name here: ')
              var displayName = document.getElementById("name");
