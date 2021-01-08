@@ -50,6 +50,7 @@ function generalQuestions(){
     } else{
         alert('Sorry, that wasn\'t the right answer');
     }
+    alert('You got ' + counter + ' answers right!')
 }
 
 // generalQuestions();
@@ -130,7 +131,7 @@ function countryQuestions(){
         alert('You ran out of guesses!');
     }
 
-    alert('You got ' + counter + ' answers right!')
+    // alert('You got ' + counter + ' answers right!')
 }
 
 
